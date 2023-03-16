@@ -1,5 +1,5 @@
-idade = "18 anos"
-nome = "Otávio Ferreira"
-peso = 101 
+Idade = 18
+Nome = "Otávio Ferreira Dahlke"
+Peso = 101.00
 
-print ("Olá, seu nome é",nome,",você tem",idade,"e pesa",peso,"kg.")
+print ("Olá, seu nome é",Nome,",você tem",Idade,"anos e pesa",Peso,"kg.")
