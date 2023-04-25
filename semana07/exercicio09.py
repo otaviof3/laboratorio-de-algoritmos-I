@@ -12,17 +12,17 @@ for x in range (1,21,1):
 porcentA = (a / 20) * 100
 porcentB = (b / 20) * 100
 porcentC = (c / 20) * 100
-if a > b and a > c:
+if a < b and a < c:
     print("A porcentagem do jornal A é",porcentA)
-    if b > c:
+    if b < c:
         print("A porcentagem do jornal B é",porcentB)
         print("A porcentagem do jornal C é",porcentC)
     else:
         print("A porcentagem do jornal C é",porcentC)
         print("A porcentagem do jornal B é",porcentB)
-elif b > c:
+elif b < c:
     print("A porcentagem do jornal B é",porcentB)
-    if a > c:
+    if a < c:
         print("A porcentagem do jornal A é",porcentA)
         print("A porcentagem do jornal C é",porcentC)
     else:
@@ -30,7 +30,7 @@ elif b > c:
         print("A porcentagem do jornal A é",porcentA)
 else:
     print("A porcentagem do jornal C é",porcentC)
-    if a > b:
+    if a < b:
         print("A porcentagem do jornal A é",porcentA)
         print("A porcentagem do jornal B é",porcentB)
     else:
