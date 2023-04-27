@@ -38,9 +38,9 @@ for i in range (1,15,1):
     corCabelo = input("Digite a cor do seu cabelo: ").upper()
     idade = int(input("Digite sua idade: "))
     if idade > idadeMaior:
-        idademaior = idade
+        idadeMaior = idade
     elif idade < idadeMenor:
-        idademenor = idade
+        idadeMenor = idade
     if sexo == "F" and idade > 18 and idade < 35 and corOlhos == "V" and corCabelo == "L":
         quantidade = quantidade + 1
     if corOlhos == "A":
